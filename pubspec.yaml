@@ -1,0 +1,39 @@
+name: netspot_wallet_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter_svg: ^2.0.7
+  shared_preferences: ^2.1.1
+  pinput: ^2.2.16
+  dotted_border: ^2.0.0+3
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: DM_Sans_bold     
+      fonts:
+        - asset: assets/fonts/DMSans-Bold.ttf
+    - family: DM_Sans_regular
+      fonts:
+        - asset: assets/fonts/DMSans-Regular.ttf
+    - family: DM_Sans_medium
+      fonts:
+        - asset: assets/fonts/DMSans-Medium.ttf
