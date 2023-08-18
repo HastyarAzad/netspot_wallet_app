@@ -2,8 +2,6 @@
 
 This project is a Netspot_wallet_app application built with Flutter. The app was created as a test for the Netspot solutions company. This application is a wallet application with many views and features. The application is built with the GetX package.
 
-![App Screenshot](insert-screenshot-url-here)
-
 ## Table of Contents
 - [Getting Started](#getting-started)
 - [Installation](#installation)
